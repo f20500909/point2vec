@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/wh/Documents/point2vec/args.cpp" "/home/wh/Documents/point2vec/cmake-build-debug/CMakeFiles/point2vec.dir/args.cpp.o"
   "/home/wh/Documents/point2vec/main.cpp" "/home/wh/Documents/point2vec/cmake-build-debug/CMakeFiles/point2vec.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

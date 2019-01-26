@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/wh/Documents/point2vec/args.cpp">
+			<Option target="point2vec"/>
+		</Unit>
+		<Unit filename="/home/wh/Documents/point2vec/args.h">
+			<Option target="point2vec"/>
+		</Unit>
 		<Unit filename="/home/wh/Documents/point2vec/main.cpp">
 			<Option target="point2vec"/>
 		</Unit>

@@ -123,6 +123,33 @@ point2vec/fast:
 	$(MAKE) -f CMakeFiles/point2vec.dir/build.make CMakeFiles/point2vec.dir/build
 .PHONY : point2vec/fast
 
+args.o: args.cpp.o
+
+.PHONY : args.o
+
+# target to build an object file
+args.cpp.o:
+	$(MAKE) -f CMakeFiles/point2vec.dir/build.make CMakeFiles/point2vec.dir/args.cpp.o
+.PHONY : args.cpp.o
+
+args.i: args.cpp.i
+
+.PHONY : args.i
+
+# target to preprocess a source file
+args.cpp.i:
+	$(MAKE) -f CMakeFiles/point2vec.dir/build.make CMakeFiles/point2vec.dir/args.cpp.i
+.PHONY : args.cpp.i
+
+args.s: args.cpp.s
+
+.PHONY : args.s
+
+# target to generate assembly for a file
+args.cpp.s:
+	$(MAKE) -f CMakeFiles/point2vec.dir/build.make CMakeFiles/point2vec.dir/args.cpp.s
+.PHONY : args.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... point2vec"
+	@echo "... args.o"
+	@echo "... args.i"
+	@echo "... args.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

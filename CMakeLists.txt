@@ -3,4 +3,4 @@ project(point2vec)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(point2vec main.cpp)
+add_executable(point2vec main.cpp args.cpp args.h)
